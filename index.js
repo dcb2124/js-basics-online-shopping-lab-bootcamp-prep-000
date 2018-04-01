@@ -64,7 +64,11 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
+<<<<<<< HEAD
   //use undefined, not null. Null means it is defined to be nothing. Undefined means you never assigned it to anything
+=======
+  //use undefined, not null. Null means it is defined to be nothing. Undefined means you never assigned it to anything,.
+>>>>>>> 529b61eafe43ffd372ccbc9ce3d70c3b78643713
   if (cardNumber === undefined){
     return "Sorry, we don't have a credit card on file for you."
   } else {
